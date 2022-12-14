@@ -91,15 +91,15 @@ var plainTemplate = swig.compileFile(__dirname + '/../templates/bugreply.txt')
 //   }
 // })
 
-var transporter1 = nodemailer.createTransport('SMTP', {
-  host: "smtpout.secureserver.net",  
-  secureConnection: false,
-  port: 587,
-  auth: {
-      user: process.env.GODADDY_EMAIL_NEW,
-      pass: process.env.GODADDY_PASSWORD_NEW
-  }
-})
+// var transporter1 = nodemailer.createTransport('SMTP', {
+//   host: "smtpout.secureserver.net",  
+//   secureConnection: false,
+//   port: 587,
+//   auth: {
+//       user: process.env.GODADDY_EMAIL_NEW,
+//       pass: process.env.GODADDY_PASSWORD_NEW
+//   }
+// })
 
 
 // var transporter2 = nodemailer.createTransport('SMTP', {
@@ -112,13 +112,23 @@ var transporter1 = nodemailer.createTransport('SMTP', {
 //   }
 // })
 
+// var transporter2 = nodemailer.createTransport('SMTP', {
+//   host: "smtpout.secureserver.net",  
+//   secureConnection: false,
+//   port: 587,
+//   auth: {
+//       user: process.env.GODADDY_EMAIL,
+//       pass: process.env.GODADDY_PASSWORD
+//   }
+// })
+
 var transporter2 = nodemailer.createTransport('SMTP', {
-  host: "smtpout.secureserver.net",  
+  host: "smtpout.secureserver.net",
   secureConnection: false,
   port: 587,
-  auth: {
-      user: process.env.GODADDY_EMAIL,
-      pass: process.env.GODADDY_PASSWORD
+  auth: {       
+    user: 'mohit@testframework.io',
+    pass: 'tubfjqjnlbfimkkv'      
   }
 })
 
