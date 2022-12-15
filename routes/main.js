@@ -88,8 +88,8 @@ var transporter1 = nodemailer.createTransport('SMTP', {
   secureConnection: false,
   // port: 587,
   auth: {
-    user: 'mohit@testframework.io',
-    pass: 'tubfjqjnlbfimkkv'
+    user: 'alpinelabssubmitabug@gmail.com',
+    pass: 'yrznwbrdnufnlkww' 
   }
 })
 
@@ -109,8 +109,8 @@ var transporter2 = nodemailer.createTransport('SMTP', {
   secureConnection: false,
   // port: 587,
   auth: {
-    user: 'mohit@testframework.io',
-    pass: 'tubfjqjnlbfimkkv'
+    user: 'alpinelabssubmitabug@gmail.com',
+    pass: 'yrznwbrdnufnlkww' 
   }
 })
 
